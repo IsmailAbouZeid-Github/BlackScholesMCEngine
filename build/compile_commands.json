@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ismail/BlackScholesMCEngine/build",
+  "command": "/usr/bin/g++   -I/home/ismail/BlackScholesMCEngine/include  -g   -std=gnu++14 -o CMakeFiles/BSM.dir/src/BSM.cpp.o -c /home/ismail/BlackScholesMCEngine/src/BSM.cpp",
+  "file": "/home/ismail/BlackScholesMCEngine/src/BSM.cpp"
+}
+]
