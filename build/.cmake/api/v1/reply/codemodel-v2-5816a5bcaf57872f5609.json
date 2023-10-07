@@ -18,7 +18,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -37,9 +37,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "BSM::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-BSM-Debug-54bd81bf3772a54d35d7.json",
-					"name" : "BSM",
+					"id" : "Main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Main-33b319a86f808693066a.json",
+					"name" : "Main",
 					"projectIndex" : 0
 				}
 			]

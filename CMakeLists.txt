@@ -7,11 +7,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(include)
 # Specify the source files
-set(SOURCES
-    src/bsm.cpp
-)
-
 # Add an executable target
-add_executable(BSM src/BSM.cpp)
+add_executable(Main src/main.cpp)
 # Include directories
 

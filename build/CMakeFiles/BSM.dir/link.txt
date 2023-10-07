@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/BSM.dir/src/BSM.cpp.o  -o BSM 

@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named BSM
+# Target rules for targets named Main
 
 # Build rule for target.
-BSM: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 BSM
-.PHONY : BSM
+Main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Main
+.PHONY : Main
 
 # fast build rule for target.
-BSM/fast:
-	$(MAKE) -f CMakeFiles/BSM.dir/build.make CMakeFiles/BSM.dir/build
-.PHONY : BSM/fast
+Main/fast:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/build
+.PHONY : Main/fast
 
-src/BSM.o: src/BSM.cpp.o
+src/main.o: src/main.cpp.o
 
-.PHONY : src/BSM.o
+.PHONY : src/main.o
 
 # target to build an object file
-src/BSM.cpp.o:
-	$(MAKE) -f CMakeFiles/BSM.dir/build.make CMakeFiles/BSM.dir/src/BSM.cpp.o
-.PHONY : src/BSM.cpp.o
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-src/BSM.i: src/BSM.cpp.i
+src/main.i: src/main.cpp.i
 
-.PHONY : src/BSM.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-src/BSM.cpp.i:
-	$(MAKE) -f CMakeFiles/BSM.dir/build.make CMakeFiles/BSM.dir/src/BSM.cpp.i
-.PHONY : src/BSM.cpp.i
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-src/BSM.s: src/BSM.cpp.s
+src/main.s: src/main.cpp.s
 
-.PHONY : src/BSM.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-src/BSM.cpp.s:
-	$(MAKE) -f CMakeFiles/BSM.dir/build.make CMakeFiles/BSM.dir/src/BSM.cpp.s
-.PHONY : src/BSM.cpp.s
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... BSM"
-	@echo "... src/BSM.o"
-	@echo "... src/BSM.i"
-	@echo "... src/BSM.s"
+	@echo "... Main"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

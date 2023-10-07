@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ismail/BlackScholesMCEngine/src/BSM.cpp" "/home/ismail/BlackScholesMCEngine/build/CMakeFiles/BSM.dir/src/BSM.cpp.o"
+  "/home/ismail/BlackScholesMCEngine/src/main.cpp" "/home/ismail/BlackScholesMCEngine/build/CMakeFiles/Main.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
