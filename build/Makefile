@@ -123,6 +123,33 @@ Main/fast:
 	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/build
 .PHONY : Main/fast
 
+src/BSM.o: src/BSM.cpp.o
+
+.PHONY : src/BSM.o
+
+# target to build an object file
+src/BSM.cpp.o:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/src/BSM.cpp.o
+.PHONY : src/BSM.cpp.o
+
+src/BSM.i: src/BSM.cpp.i
+
+.PHONY : src/BSM.i
+
+# target to preprocess a source file
+src/BSM.cpp.i:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/src/BSM.cpp.i
+.PHONY : src/BSM.cpp.i
+
+src/BSM.s: src/BSM.cpp.s
+
+.PHONY : src/BSM.s
+
+# target to generate assembly for a file
+src/BSM.cpp.s:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/src/BSM.cpp.s
+.PHONY : src/BSM.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Main"
+	@echo "... src/BSM.o"
+	@echo "... src/BSM.i"
+	@echo "... src/BSM.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

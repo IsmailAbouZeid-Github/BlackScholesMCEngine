@@ -7,10 +7,22 @@
 #IncludeRegexTransform: 
 
 ../include/BSM.hpp
+cmath
+-
+iostream
+-
+random
+-
+
+/home/ismail/BlackScholesMCEngine/src/BSM.cpp
+BSM.hpp
+/home/ismail/BlackScholesMCEngine/src/BSM.hpp
 
 /home/ismail/BlackScholesMCEngine/src/main.cpp
 BSM.hpp
 /home/ismail/BlackScholesMCEngine/src/BSM.hpp
+cstdlib
+-
 iostream
 -
 

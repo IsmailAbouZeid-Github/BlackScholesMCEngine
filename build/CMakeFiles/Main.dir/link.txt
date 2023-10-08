@@ -1,1 +1,1 @@
-/usr/bin/g++     CMakeFiles/Main.dir/src/main.cpp.o  -o Main 
+/usr/bin/g++  -g   CMakeFiles/Main.dir/src/BSM.cpp.o CMakeFiles/Main.dir/src/main.cpp.o  -o Main 

@@ -1,4 +1,7 @@
 #pragma once
+#include <cmath>
+#include <iostream>
+#include <random>
 struct constructorArgs {
   float asset;
   float strike;
@@ -14,20 +17,20 @@ public:
   BSM(constructorArgs &args);
   ~BSM();
 
-  float get_asset();
-  float get_strike();
-  float get_growth();
-  float get_volatility();
-  float get_years();
+  float get_asset() const;
+  float get_strike() const;
+  float get_growth() const;
+  float get_volatility() const;
+  float get_years() const;
 
-  long int get_steps();
-  long int get_simulations();
+  long int get_steps() const;
+  long int get_simulations() const;
 
   void log_random_walk();
 
   double get_call_price();
   double get_put_price();
-  double rando();
+  double rando() const;
 
 private:
   float _asset;
@@ -41,4 +44,6 @@ private:
 
   double _call_price;
   double _put_price;
+
+  std::mt19937 _mt_engine;
 };
