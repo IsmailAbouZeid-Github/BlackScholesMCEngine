@@ -45,4 +45,8 @@ The `constructorArgs` structure holds the input parameters required for the simu
 ## Running the Program
 
 To run the program, use the following command-line arguments:
+./main <asset> <strike> <growth> <volatility> <years> <steps> <simulations>
+Replace `<asset>`, `<strike>`, `<growth>`, `<volatility>`, `<years>`, `<steps>`, and `<simulations>` with the desired values for your option pricing simulation.
+
+
 
