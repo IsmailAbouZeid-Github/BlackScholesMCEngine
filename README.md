@@ -42,6 +42,21 @@ The `constructorArgs` structure holds the input parameters required for the simu
 - `int steps`: Number of time steps.
 - `int simulations`: Number of simulation runs.
 
+## Discretized Monte Carlo Formula
+
+The discretized Monte Carlo simulation is based on the Black-Scholes model. The key formula used for simulating the asset price path is:
+
+S_t+1 = S_t * exp((r - (σ^2) / 2) * Δt + σ * √Δt * ε)
+
+Where:
+- `S_t` is the asset price at time `t`.
+- `S_t+1` is the asset price at the next time step.
+- `r` is the risk-free interest rate.
+- `σ` is the volatility of the asset.
+- `Δt` is the time step size (time to maturity divided by the number of steps).
+- `ε` is a random number drawn from a standard normal distribution.
+
+This formula is used to update the asset price at each time step within the simulation.
 ## Running the Program
 
 To run the program, use the following command-line arguments:
