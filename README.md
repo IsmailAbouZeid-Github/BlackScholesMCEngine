@@ -60,7 +60,7 @@ This formula is used to update the asset price at each time step within the simu
 ## Running the Program
 
 To run the program, use the following command-line arguments:
-./main <asset> <strike> <growth> <volatility> <years> <steps> <simulations>
+./main asset strike growth volatility years steps simulations
 
 
 
